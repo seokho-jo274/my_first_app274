@@ -36,8 +36,8 @@ void main() {
   //아래 students의 점수 중에서 "희"로 끝나는 이름을 가진 학생들의 최고 점수를 구하세요.
 
   Map<String, int> scores = {"영희": 88, "민희": 91, "철수": 77, "지민": 84};
-int num = 0;
-int ber = 0;
+  int num = 0;
+  int ber = 0;
   for (var name in scores.entries) {
     if (name.key.contains("희")) {
       num += 1;
